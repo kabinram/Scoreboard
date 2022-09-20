@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    /* background:#DDE8E1; */
+    background:url("izuddin-helmi-adnan-UQpTP-KqYRk-unsplash.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family:Cursed Timer ULiL;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background:#18244C;
+    width:575px;
+    height:385px;
+    margin:150px auto;
+    border:5px solid #FFFFFF;
+    border-radius:20px;
+}
+
+/* title */
+.title{
+    color:#F5F4F4;
+    width:149px;
+    height:36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+#home{
+    margin:68px 53px 21px 85px;
+}
+#guest{
+    margin:68px 86px 21px 53px;
+}
+
+/* score */
+.score{
+    width:155px;
+    height:120px;
+    background:#080000;
+    border-radius:5px;
+}
+#team1{
+    margin:0 50px 0 82px;
+}
+#team2{
+    margin:0 83px 0 50px;
+}
+
+.s{
+    position: absolute;
+    text-align: center;
+    width: 117px;
+    height: 120px;
+    margin-right:20px;
+    margin-left:20px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    
+}
+
+
+/* buttons */
+.points{
+    width:155px;
+    height:45px;
+}
+button{
+    width:45px;
+    height:45px;
+    border: 2px solid #9AABD8;
+    border-radius:5px;
+    background:#18244C;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+#p1{
+    margin:26px 50px 69px 82px;
+}
+#p2{
+    margin:26px 83px 69px 50px;
+}
+#btn1,#btn4{
+    margin-right:4.5px;
+}
+#btn3,#btn6{
+    margin-left:5.5px;
+}
